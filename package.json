@@ -27,6 +27,11 @@
   "homepage": "https://github.com/cwolchesky/snowflake#readme",
   "dependencies": {
     "azure-iot-common": "^1.1.10",
-    "azure-iothub": "^1.1.13"
+    "azure-iothub": "^1.1.13",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
   }
 }

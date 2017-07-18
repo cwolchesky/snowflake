@@ -20,8 +20,16 @@
 // themselves will be immutable but their properties will still be mutable
 const IotClient = require('azure-iothub').Client;
 const IotMessage = require('azure-iot-common').Message;
+const express = require('express');
 
-// Annnnnd now I stop here for the evening to consider how best for
-// Messages to be consumed.  I'm thinking REST API?
-//
-// Tonights progress brought to you by Daryll Hall and John Oates.
+const app = express();
+
+
+app.get('/', function(req, res, next) {
+    res.send("Listening...");
+});
+
+
+
+
+app.listen(8080);
