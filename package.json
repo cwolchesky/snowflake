@@ -1,0 +1,28 @@
+{
+  "name": "snowflake",
+  "version": "0.1.0",
+  "description": "An open-source IoT project for controlling a Frigidaire Air Conditioner using cloud services and an Arduino-based device.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwolchesky/snowflake.git"
+  },
+  "keywords": [
+    "iot",
+    "node",
+    "nodejs",
+    "arduino",
+    "ir",
+    "feather",
+    "esp8266"
+  ],
+  "author": "Chris Wolchesky",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/cwolchesky/snowflake/issues"
+  },
+  "homepage": "https://github.com/cwolchesky/snowflake#readme"
+}
