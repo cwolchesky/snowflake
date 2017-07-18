@@ -4,7 +4,7 @@
   "description": "An open-source IoT project for controlling a Frigidaire Air Conditioner using cloud services and an Arduino-based device.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/cwolchesky/snowflake/issues"
   },
-  "homepage": "https://github.com/cwolchesky/snowflake#readme"
+  "homepage": "https://github.com/cwolchesky/snowflake#readme",
+  "dependencies": {
+    "azure-iot-common": "^1.1.10",
+    "azure-iothub": "^1.1.13"
+  }
 }
