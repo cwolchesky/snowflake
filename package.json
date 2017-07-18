@@ -4,7 +4,7 @@
   "description": "An open-source IoT project for controlling a Frigidaire Air Conditioner using cloud services and an Arduino-based device.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
