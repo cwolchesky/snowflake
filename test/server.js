@@ -2,7 +2,12 @@ process.env.NODE_ENV = "test";
 
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-let server = require('../app');
+const IotClient = require('azure-iothub').Client;
+const IotMessage = require('azure-iot-common').Message;
+const config = require('../config.json');
+let server = require('../app').server;
+let sendMessage = require('../app').sendMessage;
+let printResultFor = require('../app').printResultFor;
 const should = require('chai').should();
 
 chai.use(chaiHttp);
@@ -16,4 +21,9 @@ describe('GET /', function() {
                 done();
             });
     });
+});
+
+describe('Sending Messages/printResultFor', function() {
+    it('should send a message');
+    it('am not sure how to test the send and receive of data yet');
 });
