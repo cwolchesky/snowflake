@@ -45,7 +45,7 @@ const commands = {
 
 
 function sendToDevice(msg) {
-    const iotClient = IotClient.fromConnectionString(config.iotConnString);
+    const iotClient = IotClient.fromConnectionString(config.iotConnString, require('azure-iot-device-mqtt').Mqtt);
 
     iotClient.open(function(err) {
         if (err) {

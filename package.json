@@ -27,6 +27,7 @@
   "homepage": "https://github.com/cwolchesky/snowflake#readme",
   "dependencies": {
     "azure-iot-common": "^1.1.10",
+    "azure-iot-device-mqtt": "^1.1.16",
     "azure-iothub": "^1.1.13",
     "express": "^4.15.3"
   },
